@@ -28,5 +28,6 @@ Note: In all cases above, the camera should follow the box's movement (Cinemachi
 
 [5]: For better understanding of this script, here's the up scaled flow chart:
 
-
 ![InputManagerDiagram](https://github.com/shawnkasaei/badbadak-simple-box-test/blob/main/README/Images/InputManagerDiagram.png)
+
+[6]: For all camera in the game we are using different `Cinemachine Virtual Cameras`, which are interchangeable using `CameraManager.cs`
