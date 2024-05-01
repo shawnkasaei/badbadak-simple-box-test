@@ -4734,7 +4734,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1476
+  m_Name: pb_Mesh-1610
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -8243,7 +8243,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1418
+  m_Name: pb_Mesh-1332
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -10866,7 +10866,6 @@ GameObject:
   - component: {fileID: 1970217941}
   - component: {fileID: 1970217942}
   - component: {fileID: 1970217943}
-  - component: {fileID: 1970217944}
   m_Layer: 0
   m_Name: FreeLook Camera
   m_TagString: Untagged
@@ -11012,21 +11011,6 @@ MonoBehaviour:
   AutoEnableInputs: 1
   XYAxis: {fileID: 1764206795986622562, guid: 246f5e7a08df0324fb1f58354980a648, type: 3}
   ZAxis: {fileID: 0}
---- !u!114 &1970217944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970217940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9afa807c1f6d2324c90579b73dafeb65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputActionLookArrows: {fileID: 5055074279981210021, guid: 246f5e7a08df0324fb1f58354980a648, type: 3}
-  inputActionLookDelta: {fileID: 1764206795986622562, guid: 246f5e7a08df0324fb1f58354980a648, type: 3}
-  cinemachineInputProvider: {fileID: 0}
 --- !u!43 &1974548899
 Mesh:
   m_ObjectHideFlags: 0

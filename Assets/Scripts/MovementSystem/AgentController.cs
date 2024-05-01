@@ -6,13 +6,13 @@ public class AgentController : MonoBehaviour
     public static AgentController Instance;
 
     private NavMeshAgent agent;
-    private Camera camera;
+    private Camera mainCamera;
     private Transform rotationObj;
     
     private void Awake()
     {
         Instance = this;
-        camera = Camera.main;
+        mainCamera = Camera.main;
         agent = GetComponent<NavMeshAgent>();
         rotationObj = transform.GetChild(0);
     }
@@ -21,7 +21,7 @@ public class AgentController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit; 
             if (Physics.Raycast(ray, out hit))
             {
