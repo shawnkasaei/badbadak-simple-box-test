@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7389738829771824195}
   - component: {fileID: 7389738829771824196}
   - component: {fileID: 7389738829771824197}
-  - component: {fileID: 7389738829771824198}
+  - component: {fileID: 5072044254870086821}
   m_Layer: 0
   m_Name: Surface
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7389738829771824195
 MonoBehaviour:
@@ -153,8 +153,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7389738829771824199}
   m_Mesh: {fileID: 0}
---- !u!64 &7389738829771824198
-MeshCollider:
+--- !u!65 &5072044254870086821
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -163,7 +163,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.8333334, y: 0, z: 0.8333334}
+  m_Center: {x: 0, y: 0, z: 0}
