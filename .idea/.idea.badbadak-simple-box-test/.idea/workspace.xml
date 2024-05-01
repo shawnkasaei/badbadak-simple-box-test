@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ffcf43-ddd1-412d-8c61-3d6c364044bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.badbadak-simple-box-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.badbadak-simple-box-test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/AgentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementSystem/AgentController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

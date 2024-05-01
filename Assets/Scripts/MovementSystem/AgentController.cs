@@ -32,7 +32,7 @@ public class AgentController : MonoBehaviour
 
     public void Enable()
     {
-        rotationObj.eulerAngles = Vector3.zero;
+        rotationObj.rotation = new Quaternion(0,0,0,1);
         agent.enabled = true;
         enabled = true;
     }
