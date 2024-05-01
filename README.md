@@ -29,4 +29,4 @@ Note: In all cases above, the camera should follow the box's movement (Cinemachi
 [5]: For better understanding of this script, here's the up scaled flow chart:
 
 
-![InputManagerDiagram]([README\Images\InputManagerDiagram.png](https://github.com/shawnkasaei/badbadak-simple-box-test/blob/main/README/Images/InputManagerDiagram.png))
+![InputManagerDiagram](https://github.com/shawnkasaei/badbadak-simple-box-test/blob/main/README/Images/InputManagerDiagram.png)
